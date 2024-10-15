@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Educational Memory Game</title>
+  </head>
+  <body>
+    <h1>Educational Memory Game</h1>
+    <h2 id="message" hidden>Message</h2>
+
+    <div id="player-input">
+      <input
+        id="player-text"
+        class="player-text"
+        placeholder="Insert Your Words here"
+        onfocus="this.value"
+        =""
+      />
+
+       
+      <h3 id="Player_option">Please select your game option</h3>
+      <div class="radio-container">
+        <input
+          type="radio"
+          id="word-option"
+          name="game_type"
+          value="Word"
+          checked
+        />
+          <label for="html">word</label><br />
+         
+        <input
+          type="radio"
+          id="sentence-option"
+          name="game_type"
+          value="Sentence"
+        />
+          <label for="css">Sentence</label><br />
+      </div>
+    </div>
+    <br />
+    <div id="game-board" class="game-board"></div>
+    <br />
+    <canvas id="dialog" hidden></canvas>
+    <button id="Start-button" class="Start-button">Start New Game</button>
+  </body>
+</html>
