@@ -1,4 +1,4 @@
-# An educational memory game involving flipping cards from words ore sentence
+# An educational memory game involving flipping cards from words or sentence
 
 ## Setup:
 
@@ -6,7 +6,7 @@ A sequence of cards is laid out face down. Each card displays a character or wor
 
 ## Game Objective:
 
-The goal is to flip the cards in the correct order that matches the sequence of words or characters entered. For example, if the entered sequence was "apple," "orange," "banana," and "!", the player must flip the cards in that exact order, including any characters, to win the game.
+The goal is to flip the cards in the correct order that matches the sequence of words or characters entered. For example, if the entered sequence was "apple," "orange," "banana," and "grep", the player must flip the cards in that exact order, including any characters, to win the game.
 
 ## How to Play:
 
@@ -20,19 +20,22 @@ The goal is to flip the cards in the correct order that matches the sequence of 
 
 1. For words: The total length should not exceed 28 characters.
 2. For sentences: The total length should not exceed 13 words.
-   **Start the Game:** After making the selection, the player clicks the "Start" button to begin the game.
-   ![Image 3](Images/start.jpg)
 
-   **Card Generation and Shuffling:** The game will automatically generate cards based on the input and shuffle them randomly, placing them face down.
+**Start the Game:** After making the selection, the player clicks the "Start" button to begin the game.
 
-   ![Image 4](Images/CardGenerationandShuffling.jpg)
+![Image 3](Images/start.jpg)
 
-   **Start Flipping Cards:** The player begins by flipping the first card, aiming to reveal the first character or word in the sequence they entered.
+**Card Generation and Shuffling:** The game will automatically generate cards based on the input and shuffle them randomly, placing them face down.
 
-   ![Image 5](Images/startflipping.jpg)
+![Image 4](Images/CardGenerationandShuffling.jpg)
 
-   **Match the Sequence:** The player continues flipping cards in the correct order, attempting to match the sequence of characters or words they entered. If a wrong card is flipped, the player must try again until they run out of attempts, as given by the game.
-   **Win Condition:** The game continues until all cards have been flipped in the correct order, matching the input word or sentence.
+**Start Flipping Cards:** The player begins by flipping the first card, aiming to reveal the first character or word in the sequence they entered.
+
+![Image 5](Images/startflipping.jpg)
+
+**Match the Sequence:** The player continues flipping cards in the correct order, attempting to match the sequence of characters or words they entered. If a wrong card is flipped, the player must try again until they run out of attempts, as given by the game.
+
+**Win Condition:** The game continues until all cards have been flipped in the correct order, matching the input word or sentence.
 
 ## Educational Value:
 
