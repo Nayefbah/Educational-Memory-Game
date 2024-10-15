@@ -12,7 +12,7 @@ The goal is to flip the cards in the correct order that matches the sequence of 
 
 **Input the Word or Sentence:** The player must enter a word or sentence in the text box to start the game. The input cannot be empty.
 
-[example]: Images\input.jpg
+[example]: https://github.com/Nayefbah/Educational-Memory-Game/blob/main/Images/CardGenerationandShuffling.jpg
 
 **Choose Game Type:** The player selects the game type—either "Words" or "Sentence."
 
